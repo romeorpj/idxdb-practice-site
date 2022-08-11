@@ -4,29 +4,33 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>IndexedDB Practice Site</title>
+       <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<main>
-			<div class="title">
+			<div class="title flexxy">
 				<h1>I</h1>
 				<h1>D</h1>
 				<h1>X</h1>
 				<h1>D</h1>
 				<h1>B</h1>
 			</div>
-			<div class="input-box">
-				<label for="text-input">Enter A word</label>
+			<div class="input-box flexxy">
+                <div class="input-wrapper">
+<label for="text-input">Enter A Word</label>
 				<input
 					type="text"
 					id="text-input"
 					name="text-input"
 					placeholder="Ex. Bob"
 				/>
-				<button type="submit" class="text-inputt__btn">Submit</button>
+                </div>
+				
+				<button type="submit" class="text-input__btn">Submit</button>
 			</div>
-			<div class="output-container">
-				<ul>
+			<div class="output-container flexxy">
+				<ul class="output-ul">
 					<li>Thomas</li>
 					<li>Romeo</li>
 					<li>Asia</li>
@@ -34,11 +38,18 @@
 			</div>
 		</main>
 		<footer>
-			<pre>The goal is to be able to input strings</pre>
-			<pre>Store each string in an indexedDB database</pre>
-			<pre>retrieve the strings</pre>
-			<pre>Display all of the strings on the page</pre>
-			<pre>Bonus* Cache the page with service workers</pre>
+<ul class="explanation">
+    <li><pre>The goal is to be able to input strings</pre></li>
+    <li><pre>Store each string in an indexedDB database</pre></li>
+    <li><pre>retrieve the strings</pre></li>
+    <li><pre>Display all of the strings on the page</pre></li>
+    <li><pre>Bonus* Cache the page with service workers</pre></li>
+</ul>
+			
+			
+			
+			
+			
 		</footer>
 	</body>
 </html>
